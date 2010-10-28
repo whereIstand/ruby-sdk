@@ -11,10 +11,4 @@ describe WIS::Client::Access do
 		WIS::Client::Access.account_issues_search(account, "global warming")
 	end
 	
-	it "should do this just for me" do
-		Dir["**/*"].select do |d|
-			puts d
-		end
-	end
-	
 end
