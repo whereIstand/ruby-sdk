@@ -1,4 +1,4 @@
-require 'lib/rubysdk'
+require 'lib/whereistand'
 
 describe WIS::Client::Access do
 	

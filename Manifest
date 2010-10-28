@@ -2,6 +2,7 @@ CHANGELOG
 Gemfile
 Gemfile.lock
 LICENSE
+Manifest
 README
 Rakefile
 lib/client/access.rb
@@ -19,6 +20,5 @@ lib/dom/opinion.rb
 lib/dom/results.rb
 lib/dom/unknown_opinion.rb
 lib/dom/unverified_opinion.rb
-lib/rubysdk.rb
+lib/whereistand.rb
 spec/client_access_spec.rb
-Manifest
