@@ -27,3 +27,4 @@ lib/whereistand.rb
 spec/client_accounts_spec.rb
 spec/client_issues_spec.rb
 spec/client_opinions_spec.rb
+whereistand.gemspec
