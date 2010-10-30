@@ -23,4 +23,7 @@ require 'dom/issue_accounts'
 require 'dom/issue_results'
 require 'dom/issue_result'
 
-require 'client/access'
+require 'client/tools'
+require 'client/accounts'
+require 'client/issues'
+require 'client/opinions'

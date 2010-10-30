@@ -1,15 +1,6 @@
 require 'lib/whereistand'
 
-describe WIS::Client::Access do
-	
-	it "account search should not fail" do
-		WIS::Client::Access.account_search("clinton")
-	end
-	
-	it "account search should return results" do
-		results = WIS::Client::Access.account_search("clinton")
-		results.hits.should > 0
-	end
+describe WIS::Client::Opinions do
 	
 	it "opinion known account issue search should not fail" do
 		account = WIS::DOM::Account.new(196, "brianr", "BrianR")
