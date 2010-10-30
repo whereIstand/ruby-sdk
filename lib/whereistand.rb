@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
+require 'uri'
+require 'net/http'
 require 'yajl'
 
 module WIS; module DOM; end; module Client; end; end
