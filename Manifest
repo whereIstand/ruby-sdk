@@ -3,9 +3,12 @@ Gemfile
 Gemfile.lock
 LICENSE
 Manifest
-README
+README.rdoc
 Rakefile
-lib/client/access.rb
+lib/client/accounts.rb
+lib/client/issues.rb
+lib/client/opinions.rb
+lib/client/tools.rb
 lib/dom/account.rb
 lib/dom/account_issues.rb
 lib/dom/account_results.rb
@@ -21,4 +24,6 @@ lib/dom/results.rb
 lib/dom/unknown_opinion.rb
 lib/dom/unverified_opinion.rb
 lib/whereistand.rb
-spec/client_access_spec.rb
+spec/client_accounts_spec.rb
+spec/client_issues_spec.rb
+spec/client_opinions_spec.rb

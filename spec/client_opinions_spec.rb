@@ -13,6 +13,10 @@ describe WIS::Client::Opinions do
 		results = WIS::Client::Opinions.search_known_account_by_issue(account, "global warming")
 		results.kind_of?(WIS::DOM::AccountIssues).should be_true
 		results.hits.should > 0
+		
+		results.issues.each do |issue_result|
+			issue_result.kind_of?(WIS::DOM::IssueResult).should be_true
+		end
 	end
 	
 end
