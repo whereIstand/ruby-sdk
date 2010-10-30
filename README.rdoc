@@ -8,10 +8,12 @@ The whereIstand Ruby SDK allows developers to interface with whereIstand opinion
 
 =Examples
 
+Access the whereIstand API via object-specific service classes in WIS::Client to get whereIstand objects.
+
   # Does an account search that returns AccountResults.
   # Refer to source for object structure
-  results = WIS::Client::Access.account_search("bill")
-  puts "Hits: " + results.hits
+  results = WIS::Client::Accounts.search("clinton")
+  puts "Hits: " results.hits
   results.accounts.each do |account|
     puts account.name + " - " + account.description
   end
